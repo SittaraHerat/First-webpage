@@ -1,0 +1,70 @@
+/* Reset some default browser styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and text color to the body */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color, padding, and text properties */
+header {
+    background-color: #005DA4;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Apply padding and margin to the main sections of the page */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #005DA4;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style the headings for sections */
+h1, h2 {
+    color: #005DA4;
+}
+
+/* Style links within sections */
+a {
+    color: #005DA4;
+}
+
+/* Apply some additional styling to specific elements if needed */
+
+/* Example: Add a border and padding to recipe lists */
+#chocolate, #vanilla, #fruit, #cheesecake {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
